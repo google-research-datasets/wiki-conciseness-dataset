@@ -4,7 +4,7 @@ This is a manually curated evaluation set in English for concise rewrites of
 20000 Wikipedia sentences. *Concise-Lite* (2-way annotated) annotators were
 asked to make minimal changes to the original sentence, whereas *Concise-Full*
 (5-way annotated) annotators were given the option to make larger rewrites. More
-details are in [our paper](https://www.todo.com).
+details are in [our paper](https://arxiv.org/abs/2211.04126).
 
 ## Evaluation
 The outputs of our best systems in the paper are in the `outputs/`
@@ -21,7 +21,7 @@ cat outputs/transformer_rt.txt | python3 tokenize_with_spacy.py > tmp.trg.spacy.
 errant_parallel -orig tmp.src.spacy.txt -cor tmp.trg.spacy.txt -out tmp.m2
 ```
 
-The scores from Table 6 in [the paper](https://www.todo.com) can be reproduced by
+The scores from Table 6 in the paper can be reproduced by
 comparing `tmp.m2` to `concise_lite.m2` or `concise_full.m2`:
 
 ```
@@ -48,7 +48,7 @@ This dataset is licensed under [CC BY 4.0](https://creativecommons.org/licenses/
 
 
 ## BibTeX
-If you found this dataset useful, please cite our [paper](https://www.todo.com/).
+If you found this dataset useful, please cite our [paper](https://arxiv.org/abs/2211.04126).
 
 ```
 @inproceedings{wiki-conciseness,
