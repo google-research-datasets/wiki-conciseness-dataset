@@ -1,7 +1,7 @@
 # The wiki-conciseness dataset
 
 This is a manually curated evaluation set in English for concise rewrites of
-20000 Wikipedia sentences. *Concise-Lite* (2-way annotated) annotators were
+2000 Wikipedia sentences. *Concise-Lite* (2-way annotated) annotators were
 asked to make minimal changes to the original sentence, whereas *Concise-Full*
 (5-way annotated) annotators were given the option to make larger rewrites. More
 details are in [our paper](https://arxiv.org/abs/2211.04126).
